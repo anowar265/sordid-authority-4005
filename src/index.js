@@ -7,15 +7,19 @@ import { BrowserRouter } from "react-router-dom";
 import { Provider as ReduxProvider } from "react-redux";
 import { store } from "./Redux/store";
 import axios from "axios";
+import { ChakraProvider } from '@chakra-ui/react'
+
 
 axios.defaults.baseURL = "http://localhost:8080";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
+  <ChakraProvider>
     <ReduxProvider store={store}>
       <App />
     </ReduxProvider>
+    </ChakraProvider>
   </BrowserRouter>
 );
 

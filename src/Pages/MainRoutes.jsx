@@ -6,6 +6,7 @@ const MainRoutes = () => {
   return (
     <Routes>
       <Route path="/" element={<Homepage />} />
+      <Route path="/hello" element={"hello"} />
     </Routes>
   );
 };
