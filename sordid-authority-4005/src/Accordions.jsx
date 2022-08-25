@@ -13,6 +13,9 @@ import {
 const Accordions = () => {
   return (
     <div>
+        <h3>
+            <span>Related FAQs</span>
+        </h3>
          <Accordion allowToggle marginLeft='20px'  textAlign='left'>
       <AccordionItem >
     <h2>
