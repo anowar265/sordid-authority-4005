@@ -23,7 +23,7 @@ const PricingTop = () => {
           textAlign="left"
           
           p="4"
-          minWidth="50%"
+          
           fontSize="30px"
           color="#fff"
           fontFamily="AvenirLtPro-Mediaum"
