@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Accordions from './Accordions';
 import { Box, Image } from '@chakra-ui/react';
@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <PricingTop /><br/>
       <ChooseMilaap />
-      <Image src={logo} className="App-logo" alt="logo" />
+     
       {/* <header className="App-header">
          <Image src={logo} className="App-logo" alt="logo" />
         <p>
