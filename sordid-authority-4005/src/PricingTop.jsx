@@ -1,3 +1,4 @@
+import ptopLogo from './ptopLogo.svg';
 import { Box, Button, Flex, Image, Spacer } from "@chakra-ui/react";
 import React from "react";
 
@@ -14,7 +15,7 @@ const PricingTop = () => {
         justifyContent="start"
       >
         <Box p="4"  minWidth="50%">
-          Box 1
+        <Image src={ptopLogo}  alt="logo" />
         </Box>
         <Spacer />
 
