@@ -12,11 +12,11 @@ import {
   } from '@chakra-ui/react'
 const Accordions = () => {
   return (
-    <div>
+    <div >
         <h3>
             <span>Related FAQs</span>
         </h3>
-         <Accordion allowToggle marginLeft='20px'  textAlign='left'>
+         <Accordion maxWidth="30%" allowToggle marginLeft='20px'  textAlign='left'>
       <AccordionItem >
     <h2>
       <AccordionButton>

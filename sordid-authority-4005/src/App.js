@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Accordions from './Accordions';
-import { Box } from '@chakra-ui/react';
+import { Box, Image } from '@chakra-ui/react';
 import PricingTop from './PricingTop';
 
 
@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <PricingTop />
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <Image src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload. 
         </p>
