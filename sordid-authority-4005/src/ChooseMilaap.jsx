@@ -1,6 +1,6 @@
 import logo from "./logo.svg";
 import "./ChooseMilaap.css";
-import { Box, Flex, Image, Spacer } from "@chakra-ui/react";
+import { background, Box, Button, Flex, Image, Spacer } from "@chakra-ui/react";
 import React from "react";
 
 const ChooseMilaap = () => {
@@ -106,12 +106,31 @@ const ChooseMilaap = () => {
                 alt="24X7 Exper support"
               /></Box>
                     <Box ><span className="chooseName">24X7 Exper support</span></Box>
+                    
                 </Flex>
               
               
             </Box>
+
+
             <Box>Expert support at your service, whenever you need</Box>
+            
           </Box>
+          <Button
+borderRadius='30px'
+line-height= '50px'
+marginTop='20px'
+  size='md'
+  fontSize="20px"
+  
+  height='50px'
+  width='230px'
+  
+  color='#fff'
+  backgroundColor='#9c3353'
+>
+Start a fundraiser
+</Button>
         </Box>
         <Spacer />
         <Box width="25%" borderColor="#e0e1e3">
@@ -193,3 +212,5 @@ const ChooseMilaap = () => {
 };
 
 export default ChooseMilaap;
+
+
