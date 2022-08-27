@@ -19,14 +19,31 @@ import React from "react";
 const FundraiserCalculator = () => {
   const { isOpen, onToggle } = useDisclosure();
   const property = {
-    
     defaultValue: 10000,
   };
   return (
     <Box>
-      <Box fontSize="22px" p={"20px 0 10px"} fontFamily="AvenirLTPro-Book">
-        <h3>Fundraiser goal calculator</h3>
-        <Box color={"#5d5d5d"} fontSize="14px" p={"0 30px"}>
+      <Box
+        fontSize="22px"
+        p={"20px 0 10px"}
+        fontFamily="AvenirLTPro-Book"
+        textAlign="center"
+      >
+        <h3
+          style={{
+            fontWeight: "700",
+            fontSize: "30px",
+          }}
+        >
+          Fundraiser goal calculator
+        </h3>
+        <Box
+          color={"#5d5d5d"}
+          fontSize="18px"
+          p={"0 30px"}
+          fontFamily="AvenirLTPro-Book"
+          margin={"10px 0"}
+        >
           A simple way to plan and achieve your fundraiser goal
         </Box>
       </Box>
@@ -59,7 +76,7 @@ const FundraiserCalculator = () => {
                 borderLeftColor="#fff"
                 borderRightColor="#fff"
                 borderRadius={"none"}
-                value= {`${property.defaultValue}`}
+                value={`${property.defaultValue}`}
               >
                 <NumberInputField />
 
@@ -89,6 +106,7 @@ const FundraiserCalculator = () => {
         rounded="lg"
         overflow="hidden"
         bg={"#9c3353"}
+        textAlign="center"
       >
         <Button
           onClick={onToggle}
@@ -117,23 +135,30 @@ const FundraiserCalculator = () => {
         >
           <Flex>
             <Box p={4} textAlign={"left"} maxW={"24%"}>
-                <Box mt={"50px"}><h4>​​Consider setting a goal of approx.</h4></Box>
-              <Box fontSize="30px"><h1 >₹1,02,322.73</h1></Box>
-              <Box fontStyle={"italic"} fontSize={"12px"}>Disclaimer: This goal is the approximate amount you should consider setting where we assume that you would receive 70% of the total funds from INR contributions.</Box>
-              
+              <Box mt={"50px"}>
+                <h4>​​Consider setting a goal of approx.</h4>
+              </Box>
+              <Box fontSize="30px">
+                <h1>₹1,02,322.73</h1>
+              </Box>
+              <Box fontStyle={"italic"} fontSize={"12px"}>
+                Disclaimer: This goal is the approximate amount you should
+                consider setting where we assume that you would receive 70% of
+                the total funds from INR contributions.
+              </Box>
             </Box>
             <Spacer />
-            <Box minW={'60%'} >
-                <Box ml={"27%"}>See breakup</Box>
-                <Flex>
-                    <Box>
-                        <Box></Box>
-                        <Box></Box>
-                        <Box></Box>
-                    </Box>
+            <Box minW={"60%"}>
+              <Box ml={"27%"}>See breakup</Box>
+              <Flex>
+                <Box>
+                  <Box></Box>
+                  <Box></Box>
+                  <Box></Box>
+                </Box>
 
-                    <Box></Box>
-                </Flex>
+                <Box></Box>
+              </Flex>
             </Box>
           </Flex>
         </Box>
