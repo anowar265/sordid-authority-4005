@@ -4,12 +4,14 @@ import Accordions from './Accordions';
 import { Box, Image } from '@chakra-ui/react';
 import PricingTop from './PricingTop';
 import ChooseMilaap from './ChooseMilaap';
+import FundraiserCalculator from './FundraiserCalculator';
 
 
 function App() {
   return (
     <div className="App">
       <PricingTop /><br/>
+      <FundraiserCalculator />
       <ChooseMilaap />
      
       {/* <header className="App-header">
