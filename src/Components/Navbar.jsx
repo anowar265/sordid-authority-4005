@@ -192,8 +192,9 @@ export default function Navbar() {
           >
             <Button
               onClick={() => navigate("/fund")}
-              size="lg"
-              fontSize={"1rem"}
+              width={{base:"130px", sm: "180px", md: "180px", lg: "190px", xl: "190px", "2xl": "200px" }}
+              height={{base:"30px", sm: "40px", md: "40px", lg: "50px", xl: "50px", "2xl": "50px" }}
+              fontSize={{base:"9px", sm: "11px", md: "15px", lg: "16px", xl: "16px", "2xl": "17px" }}
               fontWeight={"semibold"}
               borderRadius={"50px"}
               style={{letterSpacing: "1.6px"}}
