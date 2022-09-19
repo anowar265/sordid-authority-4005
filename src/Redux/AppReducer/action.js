@@ -57,7 +57,8 @@ export const getHomeDataFailure = () => {
 export const getinTheHomeData = (payload) => (dispatch) => {
   dispatch(getHomeDataRequest());
   axios
-    .get(`https://floating-crag-24295.herokuapp.com/donate/?_page=${payload}&_limit=6`)
+    // .get(`https://floating-crag-24295.herokuapp.com/donate/?_page=${payload}&_limit=6`)   https://floating-crag-24295.herokuapp.com/donate/?q=medical&_limit=6
+    .get(`https://floating-crag-24295.herokuapp.com/donate/?q=${payload}&_limit=6`) 
     .then((r) => {
       dispatch(getHomeDataSuccess(r.data));
     })

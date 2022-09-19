@@ -60,7 +60,7 @@ React.useEffect(() => {
    const [imgbutn4,setImgbtn4]=useState(false)   
     
    const handleingBtn1 = () =>{
-    dispatch(getinTheHomeData(2))
+    dispatch(getinTheHomeData("medical"))
     setImgbtn1(true)
     setImgbtn3(false)
     setImgbtn2(false)
@@ -68,7 +68,7 @@ React.useEffect(() => {
    }
 
    const handleingBtn2 = () =>{
-    dispatch(getinTheHomeData(3))
+    dispatch(getinTheHomeData("education"))
     setImgbtn1(false)
     setImgbtn3(true)
     setImgbtn2(false)
@@ -76,12 +76,14 @@ React.useEffect(() => {
    }
 
    const handleingBtn3 = () =>{
-    dispatch(getinTheHomeData(4))
+    dispatch(getinTheHomeData("memorials"))
     setImgbtn1(false)
     setImgbtn3(false)
     setImgbtn2(true)
     setImgbtn4(false)
    }
+
+   
   //  const handleingBtn4 = () =>{
 
   //   setImgbtn1(false)
