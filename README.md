@@ -31,8 +31,7 @@ In this project, we clone a website named “milaap” this is raising funds onl
  * We had to learn more about React, Redux that we didn't know before.
  * We all learned how to plan a project and execute that.
 
-
-
+## Screenshots 
 ![image](https://i.imgur.com/hi5PJOD.png)
 ![image](https://i.imgur.com/IAnbUg5.png)
 ![image](https://i.imgur.com/jENbJoR.png)
