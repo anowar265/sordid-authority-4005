@@ -31,13 +31,14 @@ In this project, we clone a website named “milaap” this is raising funds onl
  * We had to learn more about React, Redux that we didn't know before.
  * We all learned how to plan a project and execute that.
 
- ## Check our website at:
- * GitHub- https://github.com/anowar265/sordid-authority-4005
- * vercel: https://milaap-peach.vercel.app/
- * Video- https://drive.google.com/file/d/1gF6NNX9P9WuM9MU12xh8-3ZAcOkOrlAV/view?usp=sharing
+
 
 ![image](https://i.imgur.com/hi5PJOD.png)
 ![image](https://i.imgur.com/IAnbUg5.png)
 ![image](https://i.imgur.com/jENbJoR.png)
 ![image](https://i.imgur.com/mpz1ZAC.png)
-![image](https://i.imgur.com/xfMiGXf.png)
+
+ ## Check our website at:
+ * GitHub- https://github.com/anowar265/sordid-authority-4005
+ * vercel: https://milaap-peach.vercel.app/
+ * Video- https://drive.google.com/file/d/1gF6NNX9P9WuM9MU12xh8-3ZAcOkOrlAV/view?usp=sharing
