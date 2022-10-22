@@ -9,7 +9,7 @@ India’s private healthcare spending is estimated at $90 billion a year. Of thi
 This is a team project, built by us in the Construct Week - Unit 5 at Masai School.
 In this project, we clone a website named “milaap” this is raising funds online , in this project me and my all teammates give all our efforts to make our cloned website more attractive and functional. we made this website in 5 days during our construct week. It was a great journey to work in a team and collaborate with each other. First, we planned how to work and what is the user flow after that we distribute work among members and now we cloned this with great responsibilities and collaboration.
 
- ## Team Members: ❤️
+ ## Team Members:
  * Anowar Hosain
  * Altaf Ali Baig
  * Bishnu Gorai
