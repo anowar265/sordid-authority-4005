@@ -19,9 +19,7 @@ const LendPage = () => {
   const initialState = searchParams.getAll("category");
 
   const [sortVal, setSortVal] = useState("popularity");
-  // console.log("sortVal:", sortVal);
-  // console.log(lendData);
-  // console.log(initialState);
+
   const [low, setLow] = useState(false);
 
   const handleChangeVal = (e) => {
